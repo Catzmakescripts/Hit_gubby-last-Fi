@@ -15,6 +15,6 @@ task.spawn(function()
             :WaitForChild("PhysicsDamage")
             :FireServer(unpack(args))
 
-        task.wait(0.1) -- adjust delay if needed
+        task.wait(0.01) -- adjust delay if needed
     end
 end)
